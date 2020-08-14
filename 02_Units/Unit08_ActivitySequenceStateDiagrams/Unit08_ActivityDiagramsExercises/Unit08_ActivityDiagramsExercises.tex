@@ -1,0 +1,50 @@
+\documentclass[a4paper,11pt]{exam}
+\usepackage[german, english]{babel}
+\usepackage[applemac]{inputenc}
+
+\pointpoints{\%}{\%}
+\begin{document}
+\begin{center} \fbox{\fbox{\parbox{5.5in}{\centering
+Answer the questions in the spaces provided on the question sheets. If you run out of room for an answer, continue on the back of the page.}}}
+\end{center}\makebox[\textwidth]{Name: \enspace\hrulefill}
+
+\begin{questions}
+\question[30] {\bf Handling of an Ordering}
+
+A customer orders a product. The selling department handles the order, which is then followed by the collection of goods in stock
+and the dispatch. While the goods are on their way to the customer, the department of invoicing is creating the invoice. The invoice
+is paid as soon as the goods and the invoice arrive at the customer. Finally the invoice will be closed.
+
+Make a UML activity diagram to describe the above. Take care of the areas of responsibility.
+
+\question{\bf ATM}
+A simplified ATM transaction could be described as follows:
+
+\begin{itemize}
+	\item The customer inserts the bank card
+	\item The customer enters his/her pin code
+	\item The customer enters the amount of money she/he wants to withdraw
+	\item The ATM checks the PIN
+	\item Parallel to this the ATM checks the liquidity of the customer at his/her home bank
+	\item If the customer entered the correct PIN code and his/her transaction is covered by his/her account, (s)he is returned the bank card and then (s)he gets cash.
+	\item Otherwise an error message is shown and the customer gets the bank card.
+\end{itemize}
+Model this behavior using a UML activity diagram.
+
+\begin{otherlanguage}{german}
+Vereinfacht stellt sich das Geldabheben an einem Automaten wie folgt dar:
+
+\begin{itemize}
+	\item Der Kunde schiebt die Bankomatkarte in den Bankomaten
+	\item Der Kunde gibt dem Geldautomaten seine Geheimzahl ein
+	\item Der Kunde gibt an, wie viel Geld er abheben möchte
+	\item Der Geldautomat überprüft die Geheimzahl
+	\item Gleichzeitig überprüft der Automat die Liquidität des Kunden bei dessen Bank
+	\item Wenn der Kunde liquide ist und die korrekte Geheimzahl eingegeben hat, erhält der nacheinander die Karte und das Bargeld vom Bankomaten.
+	\item Andernfalls erhält der Kunde eine Fehlermeldung angezeigt und danach die Karte zurück
+\end{itemize}
+Beschreiben Sie diesen Sachverhalt mittels eines UML Aktivitätsdiagramms.
+\end{otherlanguage}
+
+\end{questions}
+\end{document}

@@ -1,0 +1,45 @@
+\documentclass[a4paper,11pt]{exam}
+
+\pointpoints{per cent}{per cents}
+\begin{document}
+\begin{center} \fbox{\fbox{\parbox{5.5in}{\centeringAnswer the questions in the spaces provided on the question sheets. If you run out of room for an answer, continue on the back of the page.}}}\end{center}\makebox[\textwidth]{Name: \enspace\hrulefill}
+\begin{questions}
+\question[70] {\bf Museum}
+
+A managing director of a museum asks you to prepare a data model for the following description:
+
+The artworks exhibited in the museum are categorized into
+\begin{description}
+	\item[Kind of artwork] Painting, Sculpture, etc.
+	\item [Style] Modern art, Art Nouveau, etc.
+\end{description}
+
+For every artwork there is exactly one artist who created it. The artworks are located at exactly one position in the museum but
+can be moved to other locations too. Artworks can be lended to other museums which have to apply for this in advance. The
+origin of the artworks is also documented by maintaining a list of previous owners who are stored into a separate table.
+
+By means of the data model the following questions have to be answered:
+\begin{itemize}
+	\item Which kind of artworks does an artist create?
+	\item Which previous owner does an artwork have?
+	\item At which locations of the museum was the artwork already exhibited and how long?
+	\item Sum of the purchase price of the artworks of style "Art Nouveau".
+	\item All paintings which are lended more than 10 times a year.
+	\item Total duration of lending per kind
+	\item Are all the artworks which were applied for lending really lended?
+\end{itemize}
+\begin{parts}
+	\part Create a class diagram to describe the facts given above
+	\part Give all attributes for the classes
+\end{parts}
+If you miss some more specific detail make assumptions and document them.
+
+\question[30] {\bf Handling of an Ordering}
+
+A customer orders a product. Die selling department handles the order, which is then followed by the collection of goods in stock
+and the dispatch. While the goods are on their way to the customer, the department of invoicing is creating the invoice. The invoice
+is paid as soon as the goods and the invoice arrive at the customer. Finally the invoice will be closed.
+
+Make a UML activity diagram to describe the above. Take care of the areas of responsibility.
+\end{questions}
+\end{document}

@@ -1,0 +1,61 @@
+\documentclass[a4paper,11pt]{exam}
+\usepackage[german, english]{babel}
+\usepackage[applemac]{inputenc}
+
+\pointpoints{\%}{\%}
+\begin{document}
+\begin{center} \fbox{\fbox{\parbox{5.5in}{\centering
+Answer the questions in the spaces provided on the question sheets. If you run out of room for an answer, continue on the back of the page.}}}
+\end{center}\makebox[\textwidth]{Name: \enspace\hrulefill}
+\begin{questions}
+\question[70] {\bf Museum}
+
+A managing director of a museum asks you to prepare a data model for the following description:
+
+The artworks exhibited in the museum are categorized into
+\begin{description}
+	\item[Kind of artwork] Painting, Sculpture, etc.
+	\item [Style] Modern art, Art Nouveau, etc.
+\end{description}
+
+For every artwork there is exactly one artist who created it. The artworks are located at exactly one position in the museum but
+can be moved to other locations too. Artworks can be lent to other museums which have to apply for this in advance. The
+origin of the artworks is also documented by maintaining a list of previous owners who are stored into a separate table.
+
+By means of the data model the following questions have to be answered:
+\begin{itemize}
+	\item Which kind of artworks does an artist create?
+	\item Which previous owner does an artwork have?
+	\item At which locations of the museum was the artwork already exhibited and how long?
+	\item Sum of the purchase price of the artworks of style "Art Nouveau".
+	\item All paintings which are lent more than 10 times a year.
+	\item Total duration of lending per kind
+	\item Are all the artworks which were applied for lending really lent?
+\end{itemize}
+\begin{parts}
+	\part Create a class diagram to describe the facts given above
+	\part Give all attributes for the classes
+\end{parts}
+If you miss some more specific detail make assumptions and document them.
+
+\question{\bf Landlord and Tenant}
+Normally there exists a relation between a landlord and a tenant called ``contract''. Tenants may have a contract with a one or more landlords. Landlords do not have necessarily a tenant.
+
+\begin{otherlanguage}{german}
+Zwischen einem Vermieter und einem Mieter besteht in der Regel eine Verbindung, die als ``Vertrag'' bezeichnet wird. Mieter können mit einem oder auch mehreren Vermietern einen Vertrag haben, Vermieter können Mieter haben, müssen dies aber nicht.
+\end{otherlanguage}
+
+\question{\bf Kind'a Music}
+A song has a composer and consists of a main part and two supplementary parts. Optionally a middle part may exist, too. All parts have parts of bars, which can be notes or rests. Parts of songs must not be empty. 
+
+\begin{otherlanguage}{german}
+	Ein Lied hat einen Komponisten und besteht aus zwei Nebenteilen und einem Hauptteil. Optional kann ein Mittelteil vorhanden sein. Alle Liedteile bestehen aus Taktteilen, die Noten oder Pausen sein können. Liedteile können nicht leer sein.
+\end{otherlanguage}
+
+\question{\bf Hospital}
+\begin{otherlanguage}{german}
+Ein Krankenhaus hat mehrere Krankenstationen und mehrere Ärzteteams. Jedes Ärzteteam besteht aus mehreren Doktoren. Doktoren werden in Assistenzärzte und Stationsärzte unterteilt. Auf einer Krankenstation liegen einer oder mehrere Patienten, die von Ärzten betreut werden.
+\end{otherlanguage}
+
+\end{questions}
+\end{document}

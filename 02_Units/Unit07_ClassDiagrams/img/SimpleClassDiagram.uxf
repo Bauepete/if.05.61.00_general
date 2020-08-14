@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>90</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Project</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>480</x>
+      <y>50</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Project
+--
+-name: String
+#startDate: TimeStamp
+--
++start()
++stop()
++assignTeam(team: Team)
+
+-verifyName()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>90</x>
+      <y>240</y>
+      <w>210</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>/Project/
+--
+-name: String
+#startDate: TimeStamp
+_-MAX_DURATION: Long_
+--
+_+getAccount()_
++start()
++stop()
++assignTeam(team: Team)
+/#isApproved(): Boolean/
+-verifyName()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>200</x>
+      <y>80</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Project
+--
+name: String
+startDate: TimeStamp
+--
+start()
+stop()
+assignTeam()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>570</x>
+      <y>420</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>HtmlDocument
+{abstract}
+--
+append(elem: HtmlElement)
+prepend(elem: HtmlElement)
+print()
+/validate()/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>350</x>
+      <y>260</y>
+      <w>180</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Project
+{abstract}
+--
+name: String
+startDate: TimeStamp
+--
+start()
+stop()
+assignTeam()
+/isApproved()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>560</x>
+      <y>280</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>/Printable/
+&lt;&lt;Interface&gt;&gt;
+--
+/append(text: String)/
+/prepend(text: String)/
+/print()/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

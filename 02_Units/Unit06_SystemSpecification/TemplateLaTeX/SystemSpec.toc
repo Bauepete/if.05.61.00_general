@@ -1,0 +1,19 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Initial Situation and Goal}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Initial Situation}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Application Domain}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Glossary}{3}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Model of the Application Domain}{4}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2}Goal}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Functional Requirements}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Overview}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Use Case 1: $<$Name$>$}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}General Description}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}UI to call the use case}{5}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}The Standard Use}{6}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}The Non-Standard Use}{6}{subsubsection.2.2.4}
+\contentsline {section}{\numberline {3}Non-Functional Requirements}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}NFR 1: $<$Name$>$}{7}{subsection.3.1}
+\contentsline {section}{\numberline {4}Quantity Structure}{9}{section.4}
+\contentsline {section}{\numberline {5}System Architecture and Interfaces}{10}{section.5}
+\contentsline {section}{\numberline {6}Acceptance Criteria}{11}{section.6}

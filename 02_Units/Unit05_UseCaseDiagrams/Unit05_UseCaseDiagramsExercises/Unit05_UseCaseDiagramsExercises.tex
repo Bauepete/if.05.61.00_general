@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{exam}
+\usepackage[german, english]{babel}
+\usepackage[applemac]{inputenc}
+
+\pointpoints{\%}{\%}
+\begin{document}
+\begin{center} \fbox{\fbox{\parbox{5.5in}{\centering
+Answer the questions in the spaces provided on the question sheets. If you run out of room for an answer, continue on the back of the page.}}}
+\end{center}\makebox[\textwidth]{Name: \enspace\hrulefill}
+
+\begin{questions}
+\question[30] {\bf Handling of an Ordering}
+
+A customer orders a product. The selling department handles the order, which is then followed by the collection of goods in stock
+and the dispatch. While the goods are on their way to the customer, the department of invoicing is creating the invoice. The invoice
+is paid as soon as the goods and the invoice arrive at the customer. Finally the invoice will be closed.
+
+\begin{otherlanguage}{german}
+Ein Kunde bestellt ein Produkt. Die Verkaufsabteilung bearbeitet die Bestellung. Daraufhin wird die Sammlung der Produkte, welche bestellt wurden aus dem Lager geholt, zusammengestellt und versandt. Während die Lieferung auf dem Postweg ist, wird von der Finanzabteilung die Rechnung erstellt. Die Rechnung wird bezahlt, sobald die Produkte und die Rechnung beim Kunden angekommen ist. Nach der Bezahlung wird die Rechnung geschlossen.
+
+\end{otherlanguage}
+
+Make a UML activity diagram to describe the above. Take care of the areas of responsibility.
+
+\question{\bf ATM}
+An ATM system has the following use cases:
+\begin{itemize}
+	\item An ATM systems can be started up and shut down by the Operator.
+	\item A customer can trigger a user session.
+	\item Such a session must include a PIN check, a liquidity check, and a transaction.
+	\item If the pin entered is wrong or the customer's liquidity is insufficient the user  session is aborted
+	\item The transaction can be, either a withdrawal transaction, a deposit transaction, a transfer transaction, or an inquiry transaction.
+	\item In a transaction the customer's home bank is involved, too
+\end{itemize}
+
+\begin{otherlanguage}{german}
+Ein Bank-Automat hat folgende Use Cases:
+
+\begin{itemize}
+	\item Der Automat kann vom Operator ein- und ausgeschaltet werden
+	\item Der Kunde kann eine User Session anstoßen
+	\item Eine derartige Session muss unbedingt eine Bankomatcode-Überprüfung, eine Überprüfung der Kontodeckung und eine Benutzertransaktion beinhalten
+	\item Wenn der eingegebene Bankomatcode falsch ist oder die Liquidität nicht ausreicht, wird die Session abgebrochen.
+	\item Die Benutzertransaktion kann entweder eine Bargeldabhebung, eine Bargeldeinlage, eine Überweisung oder eine Kontostandsabfrage sein.
+	\item In jede dieser Transaktionen ist die Bank involviert.
+	\item Wenn der Kunde liquide ist und die korrekte Geheimzahl eingegeben hat, erhält der nacheinander die Karte und das Bargeld vom Bankomaten.
+	\item Andernfalls erhält der Kunde eine Fehlermeldung angezeigt und danach die Karte zurück
+\end{itemize}
+\end{otherlanguage}
+
+\end{questions}
+\end{document}
